@@ -10,7 +10,7 @@ mongoose.Promise = global.Promise;
 //mongoose.set('debug', true);
 
 // TODO remplacer toute cette chaine par l'URI de connexion à votre propre base dans le cloud
-const uri = 'mongodb+srv://<username>:<password>@cluster0.mongodb.net/student_management?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://orelus_db_user:Admin123@cluster0.szo0cmo.mongodb.net/?appName=Cluster0';
 
 const options = {};
 
