@@ -2,9 +2,9 @@ let {Student} = require('../model/schemas');
 
 function getAll(req, res) {
     Student.find().then((students) => {
-        res.send(students);
+        res.json(students);
     }).catch((err) => {
-        res.send(err);
+        res.json({error: err});
     });
 }
 
